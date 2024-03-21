@@ -11,7 +11,7 @@ app.use(cors(corsOptions)); // we put this line as soon as possible but after *a
 // by using this now I can run "fetch('http://localhost:3500');" from dev tools in more websites than before the introduction of this line
 
 app.get("/", async (req, res) => {
-  res.redirect("https://www.google.com")
+  res.redirect("https://oprandiagnese.wixsite.com/arte")
 });
 
 // app.use(function (err, req, res, next) {
